@@ -8,7 +8,7 @@ pipeline {
                 checkout scm
 
                 // Run the Python script
-                sh 'python3 main.py'
+                sh 'python3 index.py'
             }
         }
     }
